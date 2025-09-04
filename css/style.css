@@ -1,161 +1,140 @@
-#button {
+button {
   background-color: #4d5ae5;
   color: #ffffff;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 6px;
+
+  padding: 16px 32px;
+  border-radius: 4px;
   font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.04em;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.1s ease;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border: none;
 }
-#button:hover {
+button:hover {
   background-color: #404bbf;
 }
-#button:active {
+button:active {
   background-color: #2e2f42;
   transform: scale(0.97);
 }
-#button:focus-visible {
+button:focus-visible {
   outline: 3px solid #e7e9fc;
   outline-offset: 2px;
 }
-#studıo {
-  background-color: #4d5ae5;
-  color: #ffffff;
+.studio {
+  color: black;
   border: none;
+  text-decoration: none;
 
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.1s ease;
 }
 
-#studıo {
-  background-color: #404bbf;
+.studio:hover {
+  color: #404bbf;
   transform: scale(0.97);
 }
-#studıo {
-  outline: 3px solid #e7e9fc;
+.studio:focus-visible {
   outline-offset: 2px;
 }
-#port {
-  background-color: #4d5ae5;
-  color: #ffffff;
+.port {
+  color: black;
   border: none;
+  text-decoration: none;
 
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.1s ease;
 }
-#port:hover {
-  background-color: #404bbf;
+.port:hover {
+  color: #404bbf;
 }
-#port:focus-visible {
-  outline: 3px solid #e7e9fc;
+.port:focus-visible {
   outline-offset: 2px;
 }
 
-#contacts {
-  background-color: #4d5ae5;
-  color: #ffffff;
+.contacts {
+  color: black;
   border: none;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.1s ease;
+  text-decoration: none;
 }
 
-#contacts:hover {
-  background-color: #404bbf;
+.contacts:hover {
+  color: #404bbf;
 }
 
-#contacts button:active {
+.contacts:active {
   background-color: #2e2f42;
 }
 
-#contacts:focus-visible {
+.contacts:focus-visible {
   outline: 3px solid #e7e9fc;
   outline-offset: 2px;
 }
-#body {
+body {
   font-family: "Roboto", sans-serif;
 }
 
-#nav {
+nav {
   background-color: white;
   padding: 10px 20px;
 }
-#headd {
+.headd {
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
-}
-#li-1 {
-  width: 264px;
-  height: 104px;
-}
-#li-2 {
-  width: 264px;
-  height: 104px;
-}
-#li-3 {
-  width: 264px;
-  height: 104px;
-}
-#li-4 {
-  width: 264px;
-  height: 104px;
-}
-#sec-1 {
-  background-color: white;
-}
-#our-team {
-  width: 1440px;
-  height: 732px;
-  background-color: #f4f4fd;
-}
-#our-port {
-  width: 1128px;
-  height: 1000px;
-  background-color: white;
-}
-#mail {
-  color: #4d5ae5;
-  background-color: #f4f4fd;
-  text-decoration: none;
-  padding: 5px 10px;
-  border-radius: 5px;
-  transition: 0.3s;
-}
-
-#mail:hover {
-  color: #ffffff;
-  background-color: #404bbf;
-}
-#phone {
-  color: #4d5ae5;
-  background-color: #f4f4fd;
-  text-decoration: none;
-  padding: 5px 10px;
-  border-radius: 5px;
-  transition: 0.3s;
-}
-
-#phone:hover {
-  color: #ffffff;
-  background-color: #404bbf;
-}
-#sec-1 h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
   letter-spacing: 0.02em;
+  text-align: center;
+  color: white;
 }
-#sec-1 p {
+.sec-1 {
+  background-color: white;
+  padding: 40px 0;
+}
+.sec-1 li div {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
 }
-#foot {
+.se-1 li h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+}
+.mail {
+  color: white;
+
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.mail:hover {
+  color: #4d5ae5;
+}
+.phone {
+  color: #ffffff;
+
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.phone:hover {
+  color: #4d5ae5;
+}
+
+.foot {
   width: 1440px;
   height: 312px;
   background-color: #2e2f42;
@@ -164,32 +143,82 @@
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  padding: 20px 0;
 }
-#our-team h3 {
+.logo {
+  width: 115px;
+  height: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+.logo span {
+  color: #2e2f42;
+}
+nav li {
+  list-style: none;
+}
+.sec-1 li {
+  list-style: none;
+}
+.our-team li {
+  list-style: none;
+}
+.our-port li {
+  list-style: none;
+}
+.our-team {
+  width: 1440px;
+  height: 732px;
+  background-color: #f4f4fd;
+  padding: 40px 0;
+}
+.our-port {
+  width: 1128px;
+  height: 1000px;
+  background-color: white;
+  padding: 40px 0;
+}
+.our-team h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
   text-align: center;
 }
-#our-team p {
+.our-team p {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   text-align: center;
 }
-#our-port h3 {
+.our-port h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
   text-align: center;
 }
-#our-port p {
+.our-port p {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   text-align: center;
+}
+.ull {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+img {
+  max-width: 100%;
+  display: block;
 }

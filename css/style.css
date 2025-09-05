@@ -84,7 +84,7 @@ nav {
   background-color: white;
   padding: 10px 20px;
 }
-.headd {
+.secc {
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
@@ -112,8 +112,7 @@ nav {
   letter-spacing: 0.02em;
 }
 .mail {
-  color: white;
-
+  color: black;
   text-decoration: none;
   padding: 5px 10px;
   border-radius: 5px;
@@ -123,9 +122,8 @@ nav {
   color: #4d5ae5;
 }
 .phone {
-  color: #ffffff;
-
-  text-decoration: none;
+  color: black;
+text-decoration: none;
   padding: 5px 10px;
   border-radius: 5px;
 }

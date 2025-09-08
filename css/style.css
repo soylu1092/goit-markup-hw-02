@@ -144,7 +144,7 @@ nav {
   letter-spacing: 0.02em;
   padding: 20px 0;
 }
-.logo {
+.logo-foot {
   width: 115px;
   height: 24px;
   font-family: "Raleway", sans-serif;
@@ -156,7 +156,7 @@ nav {
   color: #4d5ae5;
   text-decoration: none;
 }
-.logo span {
+.logo-foot span {
   color: #f5f7fa;
 }
 nav li {
@@ -247,4 +247,19 @@ p {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+}
+.logo {
+  width: 115px;
+  height: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+.logo span {
+  color: black;
 }
